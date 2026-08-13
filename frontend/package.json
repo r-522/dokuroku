@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "marked": "latest",
+    "dompurify": "latest"
+  },
+  "devDependencies": {
+    "vitest": "latest",
+    "jsdom": "latest",
+    "@testing-library/react": "latest"
+  }
+}
